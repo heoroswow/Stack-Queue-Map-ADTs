@@ -21,16 +21,21 @@ class Stack
 
 end
 
-Class Queue < Stack
+class Queue 
+    def initialize
+        @array = []
+    end
 
     def enqueue(el)
-
+        array.push(el)
+        el
     end
 
     def dequeue
-
-    end
-
-    
+        array.shift
+    end    
+    private
+    attr_reader :array
 end
+
 
