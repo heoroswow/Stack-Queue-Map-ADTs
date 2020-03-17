@@ -38,4 +38,28 @@ class Queue
     attr_reader :array
 end
 
+class Map
+    def initialize
+        @array = []
+    end
+
+    def set(key,value)
+
+    end
+
+    def get(key)
+
+    end
+
+    def delete(key)
+
+    end
+
+    def show
+
+    end
+    private
+    attr_reader
+end
+
 
