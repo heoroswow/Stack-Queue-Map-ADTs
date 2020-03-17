@@ -21,10 +21,16 @@ class Stack
 
 end
 
-new_stack = Stack.new()
-new_stack.push(1)
-new_stack.push(2)
-new_stack.push(3)
-new_stack.pop
-p new_stack.peek
-p new_stack
+Class Queue < Stack
+
+    def enqueue(el)
+
+    end
+
+    def dequeue
+
+    end
+
+    
+end
+
